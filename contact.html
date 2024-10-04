@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Karla:ital,wght@1,800&family=Noto+Sans:wght@300&family=Source+Code+Pro:wght@300&display=swap');
+    </style>
+    <link rel="stylesheet" href="contact.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <section class="nv1">
+            <div id="left-nv1">
+                <a><img src="images/message.png" alt=""></a>
+                <a><img src="images/facebook.png" alt=""></a>
+                <a><img src="images/instagram.png" alt=""></a>
+                <a><img src="images/linkedin.png" alt=""></a>
+                <a><img src="images/twitter.png" alt=""></a>
+                <a><img src="images/call.png" alt="">+91-8630972345</a>
+                <a><img src="images/email.png" alt="">dfbazar@help.com</a>
+            </div>
+            <div id="right-nv1">
+                <a><img src="images/location.png" alt="">Mohali, Punjab</a>
+                <a><img src="images/delivery.png" alt="">Track Order</a>
+                <div class="dropdown">
+                    <a><img src="images/profile.png" alt="">Hi, Apoorva</a>
+                    <div id="dropdown-content">
+                        <a href="#">Account</a>
+                        <a href="#">Profile</a>
+                        <a href="#">Orders</a>
+                        <a href="#">Wishlist</a>
+                        <a href="logout.php">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="nv-2">
+            <span id="logo">
+                <a><img src="images/flogo.png" alt=""></a>
+                <a><img src="images/fname.png" alt=""></a> 
+            </span>
+            <form id="form" role="search">
+                <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+                <button>Search</button>
+            </form>
+            <div id="cart-container"><img src="images/cart.png" alt=""></div>
+        </section>
+        <section class="nv-3">
+            <a href="index.html"><span>HOME</span></a>
+            <a href="Products.html"><span>PRODUCTS</span></a>
+            <a href="about.html"><span>ABOUT US</span></a>
+            <a href="testimonials.html"><span>TESTIMONIALS</span></a>
+            <a href="contact.html"><span>CONTACT US</span></a>
+        </section>
+    </nav>
+    <!--  Navigation Bar ends here -->
+
+    <!-- contact us -->
+    <div class="contact-us">
+        <h1>Contact Us</h1>
+        <div class="both">
+            <div class="left-contact">
+                <form action="contact-form.php">
+                    <label for="name"></label>
+                    <input type="text" name="Name" id="Name" placeholder="Full Name" required>
+                    <label for="e-mail"></label>
+                    <input type="email" name="Email" id="Email" placeholder="Email" required>
+                    <label for="message"></label>
+                    <textarea name="Message" id="Message" placeholder="Your Message..." required></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="right-contact">
+                <div id="part">
+                    <a><img src="images/pin-8-16.png" alt=""></a>
+                    <span>
+                    <h3>Our Office Address</h3>
+                    <p>Mohali, Punjab</p>
+                </span>
+                </div>
+                <div id="part">
+                    <a><img src="images/message-16.png" alt=""></a>
+                    <span>
+                    <h3>General Enquiries</h3>
+                    <p>dfbazar@help.com</p>
+                </span>
+                </div>
+                <div id="part">
+                    <a><img src="images/phone-28-16.png" alt=""></a>
+                    <span>
+                    <h3>Call Us</h3>
+                    <p>+919898989898</p>
+                </span>
+                </div>
+                <div id="part">
+                    <a><img src="images/clock-16.png" alt=""></a>
+                    <span>
+                    <h3>Our Timing</h3>
+                    <p>Mon-Sun: 10:00 AM - 07:00 PM</p>
+                </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-content">
+        <div class="sec-1">
+            <a href="index.html">
+                <h5>HOME</h5>
+            </a>
+            <a href="Products.html">
+                <h5>PRODUCTS</h5>
+            </a>
+            <a href="about.html">
+                <h5>ABOUT US</h5>
+            </a>
+            <a href="testimonials.html">
+                <h5>TESTIMONIALS</h5>
+            </a>
+            <a href="contact.html">
+                <h5>CONTACT US</h5>
+            </a>
+        </div>
+        <div class="sec-2">
+            <h5>CONTACT</h5>
+            <p>Chandigarh University, Mohali, 140413, Punjab</p>
+            <p>+91-8630972345</p>
+            <p>dfbazar@help.com</p>
+        </div>
+        <div class="sec-3">
+            <h5>FOLLOW US</h5>
+            <a><img src="images/facebook.png" alt=""></a>
+            <a><img src="images/instagram.png" alt=""></a>
+            <a><img src="images/linkedin.png" alt=""></a>
+            <a><img src="images/twitter.png" alt=""></a>
+        </div>
+    </div>
+    <footer>
+        <p>© Copyrights 2024.Dryfruit Bazar.All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
